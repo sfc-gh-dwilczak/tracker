@@ -1,0 +1,6 @@
+git clone https://github.com/confluentinc/librdkafka.git
+./configure
+make
+sudo make install
+pip3 install confluent_kafka 
+sudo apt purge librdkafka1 librdkafka-dev
